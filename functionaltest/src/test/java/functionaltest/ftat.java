@@ -23,7 +23,7 @@ public class ftat {
 	 
 	 
 	@Test(priority = 0)
-	public void logintest() {
+	public void logintest() {  
 		driver = new HtmlUnitDriver();
 		//driver= new FirefoxDriver();
 		wait = new WebDriverWait(driver, 10);
